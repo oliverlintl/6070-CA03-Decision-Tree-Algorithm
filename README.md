@@ -1,1 +1,1 @@
-# 6070-CA03-Decision-Tree-Algorithm
+# 6070 CA03: Decision Tree Algorithm
