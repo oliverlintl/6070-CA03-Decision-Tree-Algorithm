@@ -1,0 +1,9 @@
+split_criteria,min_sample_split,min_sample_leaf,max_depth
+gini,2,1,5
+gini,2,15,10
+gini,10,20,10
+gini,55,15,15
+entropy,2,1,5
+entropy,2,15,10
+entropy,10,20,10
+entropy,55,15,15
