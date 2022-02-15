@@ -74,3 +74,7 @@ The following is the match of before and after:;
 >> 3: b. 26-30 & 71-100 <br>
 >> 4: c. 31-35 & 61-70 <br>
 >> 5: a. 0-25 <br>
+
+# Decision Tree
+After the data is ready, we finally use it to fit the decision tree classifier. And we use graphviz to visualize the tree. 
+![alt text](image/dtree.png)
