@@ -78,3 +78,6 @@ The following is the match of before and after:;
 # Decision Tree
 After the data is ready, we finally use it to fit the decision tree classifier. And we use graphviz to visualize the tree. 
 ![alt text](image/dtree.png)
+
+# Tune Tree
+After creating and visualize the decision tree, we use metrics including accuracy, precision, recall and F1 score to measure the perfomance of the tree, and use hyperparameters including Split Criteria, Minimum Sample Split, Minimum Sample Leaf and Maximum Depth to tune the decision tree. 
