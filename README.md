@@ -81,3 +81,8 @@ After the data is ready, we finally use it to fit the decision tree classifier. 
 
 # Tune Tree
 After creating and visualize the decision tree, we use metrics including accuracy, precision, recall and F1 score to measure the perfomance of the tree, and use hyperparameters including Split Criteria, Minimum Sample Split, Minimum Sample Leaf and Maximum Depth to tune the decision tree. 
+
+# Runtime
+Without autotuning loop: ~2 minutes
+With autotuning loop: 15-20 minutes
+I used a second autotuning loop to test through a range of hyperparamter. It is slow because the number of iterations. An improvement would be to use a optimizer for such a test.
